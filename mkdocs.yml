@@ -1,0 +1,38 @@
+site_name: 中医传承
+site_url: https://awesome-tcm.com
+site_description:  Traditional Chinese Medicine Knowledge,  Inheritance and Books
+site_author: suwen
+repo_name: tcm/awesome-tcm
+repo_url: https://github.com/vinta/awesome-tcm
+theme:
+  name: material
+  palette:
+    primary: red
+    accent: pink
+  top:
+    title: '目录'
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/yourusername
+# google_analytics:
+#  - auto
+extra_css:
+    - css/extra.css
+nav:
+  - "中医这个五千年的传承不能断，真正对人类有贡献的东西": "index.md"
+
+markdown_extensions:
+  - pymdownx.extra
+  - pymdownx.betterem
+
+# 启用多语言支持
+plugins:
+  - search
+  - i18n:
+      default_language: zh
+      languages:
+        en: English
+        zh: 中文
